@@ -1,0 +1,128 @@
+/**
+ * Set CSS Variable here
+ */
+@import (inline) './font.css';
+@font-family: 'Gotham Rounded', sans-serif;
+
+@primary-color: #16b8b2;
+@secondary-color: #505050;
+@message__errors: red;
+
+@text-color : #282828;
+@border-radius-base     : 3px;
+
+// Form
+// ---
+@label-required-color        : @highlight-color;
+@label-color                 : @heading-color;
+@form-item-margin-bottom     : 24px;
+@form-item-trailing-colon    : true;
+@form-vertical-label-padding : 0 0 8px;
+@form-vertical-label-margin  : 0;
+
+// Input
+// ---
+@input-height-base           : 40px;
+@input-height-lg             : 48px;
+@input-height-sm             : 24px;
+@input-padding-horizontal    : @control-padding-horizontal - 1px;
+@input-padding-horizontal-base: @input-padding-horizontal;
+@input-padding-horizontal-sm : @control-padding-horizontal-sm - 1px;
+@input-padding-horizontal-lg : @input-padding-horizontal;
+@input-padding-vertical-base : 4px;
+@input-padding-vertical-sm   : 1px;
+@input-padding-vertical-lg   : 6px;
+@input-placeholder-color     : hsv(0, 0, 75%);
+@input-color                 : @text-color;
+@input-border-color          : @border-color-base;
+@input-bg                    : #fff;
+@input-addon-bg              : @background-color-light;
+@input-hover-border-color    : @primary-color;
+@input-disabled-bg           : @disabled-bg;
+
+// Buttons
+@btn-font-weight        : 500;
+
+@btn-height-base        : 40px;
+@btn-height-lg          : 50px;
+@btn-height-sm          : 24px;
+
+// Bootstrap
+
+//
+// Color system
+//
+
+@white:    #ffffff;
+@gray-100: #f8f9fa;
+@gray-200: #e9ecef;
+@gray-300: #dee2e6;
+@gray-400: #ced4da;
+@gray-500: #adb5bd;
+@gray-600: #6c757d;
+@gray-700: #495057;
+@gray-800: #343a40;
+@gray-900: #212529;
+@black:    #282828;
+@greyish-brown : #505050;
+@warm-grey : #8c8c8c;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+@body-bg:                   @white;
+@body-color:                @gray-900;
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the @spacers map, should you need more variation.
+
+@spacer: 1rem;
+@spacers: 0 0, 1 (@spacer * 0.25), 2 (@spacer * 0.5), 3 @spacer,
+  4 (@spacer * 1.5), 5 (@spacer * 3);
+
+// This variable affects the `.h-*` and `.w-*` classes.
+@sizes: 25 25%, 50 50%, 75 75%, 100 100%, auto auto;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+@font-size-base: 14px; // Assumes the browser default, typically `16px`
+@font-size-lg: 16px;
+@font-size-sm: 12px;
+
+@font-weight-light: 300;
+@font-weight-normal: normal;
+@font-weight-bold: 500;
+@font-weight-bolder: 700;
+
+@font-weight-base: @font-weight-normal;
+@line-height-base: 20px;
+
+@h1-font-size: (@font-size-base * 2.5);
+@h2-font-size: (@font-size-base * 2);
+@h3-font-size: (@font-size-base * 1.75);
+@h4-font-size: 20px;
+@h5-font-size: 16px;
+@h6-font-size: @font-size-base;
+
+@text-muted:                  @gray-600;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+@grid-breakpoints:
+	xs 0,
+	sm 576px,
+	md 768px,
+	lg 992px,
+	xl 1200px;
+
+//@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+//@include _assert-starts-at-zero($grid-breakpoints);

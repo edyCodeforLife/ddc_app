@@ -1,0 +1,77 @@
+.list_bank__container .list_metode_pembayaran--margin{
+    margin: 30px 0px;
+}
+
+.list_bank__container h5.title_context--font-size{
+    color: #000000;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.list_bank__container .list_bank--margin{
+    margin: 10px 0px;
+    padding-right: 10px;
+}
+
+.list_bank__container .list_bank--margin .container_radio--border{
+    border: 1px solid #A1A1A1;
+    padding: 20px 10px;
+}
+
+.list_bank__container .nama_bank__container{
+    float: left;
+}
+
+.list_bank__container .fee_bank__container{
+    margin-left: 350px;
+    color: #A1A1A1;
+    font-weight: 400;
+}
+
+.list_bank__container .ant-radio{
+    float: left;
+}
+
+.list_bank__container .ant-radio-group{
+    width: 100%;
+}
+
+.list_bank__container .ant-radio-group  .ant-radio-inner{
+    top: 15px !important;
+}
+
+.list_bank__container .total_pembayaran_container--border{
+    border: 1px solid #A1A1A1;
+    padding: 20px;
+}
+
+.list_bank__container .total_pembayaran_container--padding-right{
+    padding-right: 10px;
+}
+
+.list_bank__container h5.total_pembayaran--font{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+}
+
+.list_bank__container h5.total_pembayaran_value--font{
+    font-size: 16px;
+    margin-bottom: 0px !important;
+    color: #72bf44;
+    text-align: right;
+}
+
+.list_bank__container img.img_bank--size{
+    height: 50px;
+}
+
+.list_bank__container{
+    margin: 30px 0px;
+}
+
+.list_bank__container h5.title_context--font-size{
+    color: #000000;
+    font-size: 12pt;
+    font-weight: 500;
+}

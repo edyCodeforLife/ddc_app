@@ -1,0 +1,17 @@
+//
+// Block button
+//
+
+.btn-block {
+	display: block;
+	width: 100%;
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	&.btn-block {
+		width: 100%;
+	}
+}

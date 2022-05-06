@@ -1,0 +1,24 @@
+
+<svg width="290px" height="230px" viewBox="0 0 290 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pembayaran---Kartu-Kredit---Info-CCV" transform="translate(-5.000000, -5.000000)">
+            <g id="img-credit-card" transform="translate(5.000000, 5.000000)">
+                <rect id="Rectangle" stroke="#B4B4B4" stroke-width="6" fill="#FFFFFF" x="3" y="3" width="284" height="154" rx="10"></rect>
+                <rect id="Rectangle" fill="#F5821F" x="170" y="90" width="50" height="40" rx="3"></rect>
+                <rect id="Rectangle" stroke="#F5821F" stroke-width="2" fill="#FFFFFF" x="171" y="191" width="48" height="38" rx="3"></rect>
+                <text id="123" font-family="GothamRounded-Bold, Gotham Rounded" font-size="14" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="183.338" y="114">123</tspan>
+                </text>
+                <text id="CVV" font-family="GothamRounded-Bold, Gotham Rounded" font-size="14" font-weight="bold" fill="#F5821F">
+                    <tspan x="179.67" y="214">CVV</tspan>
+                </text>
+                <rect id="Rectangle" fill="#B4B4B4" x="20" y="100" width="140" height="20" rx="3"></rect>
+                <rect id="Rectangle" fill="#B4B4B4" x="0" y="30" width="290" height="40"></rect>
+                <path d="M195.25,129.5 L195.25,189.5" id="Line" stroke="#F5821F" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
